@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Inman || About Me
+{% endblock %}
+
+{% block main %}
+        <h1>Jeff Inman Personal Introduction</h1>
+
+        <p>Welcome, please enjoy my quick site and check out the links above if you would like to connect or see some other projects I have been working on in Github.</p>
+        <div class="container">
+            <img src="{{url_for('static', filename='/image/linkedIn.JPG')}}" alt="LinkedIn Picture" width="300" height="300">
+        </div>
+        <h3>Coding</h3>
+        <p>I have always loved to build things. I never really realized that coding was a way for me to do that late into life until I left active-duty military. Since then, I have worked on a lot of different languages. The military side of my life got me involved in cyber security, which is something I still find very interesting, but I would prefer to focus on the physical penetration testing side of thing in that world. Some of the languages I primarily work with are below, but there are several other frameworks that I also have had the honor of working with that aren't necessarily their own language, such as pyspark, React, etc.</p>
+        <div class="container">
+            <h4>Languages  ||</h4>
+            <ol>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>C</li>
+                <li>SQL</li>
+            </ol>
+        </div>
+
+        <h3>Army Work</h3>
+        <p>I joined the Army in 2005 as a Parachute Rigger. From there, I was stationed at Fort Campbell, KY and worked with 160 SOAR(A). I worked there until 2011, when I moved to the USASOC Parachute Team, the Black Daggers. While there I made close to 1,100 jumps from aircraft, was on ESPN jumping into stadiums and even got to give some outstanding Marines thier first tandem jumps (see the link below)</p>
+        <a href="https://www.marines.mil/News/News-Display/Article/525382/two-marines-jump-with-black-daggers/" target="_blank">Marine Tandem Article</a>
+        <p>While I was part of the Black Daggers, I trained for and was selected for Special Forces Training. I attended the Special Forces Qualification Course and have worked with Special Forces since 2014 when I graduated. One of the highlights was attending SF Underwater Operations School</p>
+        <a href="https://www.youtube.com/watch?v=AW-dFhkV1qQ" target="_blank">Army Special Forces Underwater Operations School</a>
+        <div class="container">
+            <img src="{{url_for('static', filename='/image/sfCrest.JPG')}}" alt="Special Forces Crest" width="300" height="300">
+        </div>
+        <h3>Work after the Army</h3>
+        <p>My job title is a Data Scientist, but I always heard if you hire a Data Scientist without a Data Engineer, you have hired an overqualified Data Engineer &#128514;
+        </p>
+        <p>
+        I love my life learning as a consultant. The best part is never really knowing what problem you will be faced with, just always building skills so that when a problem becomes apparent there is enough in the tank to get to the level required to accomplish the goal.
+        </p>
+        <h3>Life</h3>
+        <p>Originally from a small town in WA, south of Spokane. I now live in Spokane, WA with my 15-year-old son. We like to work out, play tennis, video games, cook, ski, and work around the house.</p>
+{% endblock %}

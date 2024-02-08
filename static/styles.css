@@ -1,0 +1,53 @@
+/* Home page - basic styling throughout site */
+body {
+  background: linear-gradient(#c1c6fa, rgb(235, 193, 96));
+  border: 3px solid black;
+}
+
+h1, h2, h3, h4 {
+  color: darkblue;
+  text-align: center;
+}
+
+p,a {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+span.italic {
+  font-style: italic;
+}
+
+ul {
+  font-size: 1.2em;
+}
+
+
+/* Navagation bar */
+
+nav.navbar {
+  border: 1em solid black;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+/* Results table */
+table.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  font-size: 2em;
+}

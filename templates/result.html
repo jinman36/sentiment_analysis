@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    results
+{% endblock %}
+
+{% block main %}
+<h1>Result List</h1>
+<table class="results">
+    <tbody>
+        {% if result != '' %}
+        <tr>
+            <td>Original Text: {{ text }} </td>
+        </tr>
+        <tr>
+            <td>Prediction: {{ result }} </td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
+{% endblock %}

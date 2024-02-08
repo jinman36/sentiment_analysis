@@ -1,0 +1,11 @@
+python
+os
+pandas
+numpy
+re
+contractions
+nltk
+string
+emoji
+flask
+flask_session
