@@ -26,9 +26,9 @@ def fit_cv(tweet_corpus):
 
 def predict_tweet(prediction):
     if prediction == 1:
-        return "Message is Positive"
+        return "positive"
     else:
-        return "message is Negative"
+        return "negative"
     
 def model(text):
     df = pd.read_csv("tweet_data.csv")
